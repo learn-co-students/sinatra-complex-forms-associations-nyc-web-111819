@@ -61,7 +61,6 @@ describe "Pets Controller" do
       @pet= Pet.last
       expect(page.current_path).to eq("/pets/#{@pet.id}")
     end
-  end
 
   describe "edit action" do
     before(:each) do
